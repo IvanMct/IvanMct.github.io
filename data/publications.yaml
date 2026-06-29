@@ -6,6 +6,12 @@
   type: "monograph"
   note: "Review done"
 
+- authors: "Nikolić G. (ed.); Martinović I. (entries author)"
+  title: "The Montenegrin Health Lexicon — entries: Digitalization of Montenegrin Healthcare; Application of Artificial Intelligence in Montenegrin Healthcare"
+  venue: "Montenegrin Health Lexicon"
+  year: ""
+  type: "lexicon"
+
 - authors: "Martinović I., Dousty M., Li W., Đukanović M., Coyle L. J., Sejdić E."
   title: "Leveraging Ensemble on Self-Supervised Techniques to Enhance Model Performance: A Regime Analysis"
   venue: "Journal of Imaging Informatics in Medicine"
@@ -107,8 +113,3 @@
   year: "2025"
   type: "handbook"
 
-- authors: "Nikolić G. (ed.); Martinović I. (entries author)"
-  title: "The Montenegrin Health Lexicon — entries: Digitalization of Montenegrin Healthcare; Application of Artificial Intelligence in Montenegrin Healthcare"
-  venue: "Montenegrin Health Lexicon"
-  year: ""
-  type: "lexicon"
