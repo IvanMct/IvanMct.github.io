@@ -1,0 +1,162 @@
+{{ define "main" }}
+
+<nav class="topnav">
+  <div class="topnav-inner">
+    <a href="#top" class="brand">I.M.</a>
+    <div class="nav-links">
+      <a href="#about">About me</a>
+      <a href="#publications">Publications</a>
+      <a href="#awards">Honors &amp; Awards</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-photo">
+      <div class="photo-frame">
+        <svg viewBox="0 0 200 200" class="placeholder-avatar" aria-label="Photo placeholder" preserveAspectRatio="xMidYMid slice">
+          <rect width="200" height="200" fill="#2C6A99"/>
+          <circle cx="100" cy="78" r="34" fill="#F7F4ED" opacity="0.92"/>
+          <path d="M40 190 C40 140 65 122 100 122 C135 122 160 140 160 190 Z" fill="#F7F4ED" opacity="0.92"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="hero-text">
+      <p class="eyebrow">Podgorica / Cetinje, Montenegro 🇲🇪</p>
+      <h1>Ivan Martinović</h1>
+      <p class="hero-subtitle">PhD in Electrical Engineering — AI in Medicine</p>
+
+      <div class="hero-links">
+        <a href="https://www.linkedin.com/in/martinovic-ivan" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="{{ "files/CV_Ivan_Martinovic.pdf" | relURL }}" target="_blank">Download CV</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section" id="about">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="section-icon">🏡</span> About me</h2>
+    <div class="about-content">
+      <p>
+        I am <strong>Ivan Martinović</strong>, a researcher working at the intersection of
+        <strong>artificial intelligence and medicine</strong>, based between Montenegro, Canada, and Denmark.
+        I hold a PhD in Electrical Engineering from the <strong>University of Montenegro</strong>, where my work focused
+        on AI-based automatic analysis of fluoroscopic X-rays, developed in cooperation with the
+        <strong>University of Toronto</strong>, the <strong>University of Pittsburgh</strong>, Ericsson Nikola Tesla Zagreb,
+        and the Clinical Center of Montenegro.
+      </p>
+      <p>
+        Beyond the lab, I founded and lead <strong>epiSTEMe</strong>, a Montenegrin scientific technology hub
+        dedicated to popularizing science and STEM education, and I serve as the official AI lecturer for
+        Montenegro's <strong>Human Resources Administration</strong>, training civil servants in the practical
+        application of artificial intelligence. I've also spent years building grassroots science programs —
+        from coding clubs in over 160 schools to Montenegro's first national robotics league for elementary students.
+      </p>
+      <p>
+        My research has taken me to the <strong>University of Toronto</strong>, the <strong>Oxford Machine Learning
+        Summer School</strong>, and most recently the <strong>MAPP Center at Aarhus University</strong> in Denmark as
+        an EIT Food RIS Fellow. In 2024, this work was recognized internationally with the
+        <strong>WSIS Prize Champion</strong> award from the <strong>International Telecommunication Union (ITU)</strong>.
+      </p>
+    </div>
+
+    <div class="education-grid">
+      {{ range $.Site.Data.education }}
+      <div class="edu-card">
+        <p class="edu-degree">{{ .degree }}</p>
+        <p class="edu-org">{{ .org }}</p>
+        <p class="edu-meta">{{ .start }}–{{ .end }} {{ if .note }}· {{ .note }}{{ end }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="publications">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="section-icon">📄</span> Publications</h2>
+    <p class="section-intro">Journals, conferences, a monograph, a lexicon, and handbooks — listed in reverse chronological order.</p>
+
+    <div class="pub-list">
+      {{ range $.Site.Data.publications }}
+      <div class="pub-item">
+        <span class="pub-type pub-type-{{ .type }}">{{ .type }}</span>
+        <div class="pub-body">
+          <p class="pub-title">{{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</p>
+          <p class="pub-meta">{{ .authors }} — <em>{{ .venue }}</em>{{ if .year }}, {{ .year }}{{ end }}{{ if .note }} · {{ .note }}{{ end }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="awards">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="section-icon">🏆</span> Honors &amp; Awards</h2>
+    <div class="awards-grid">
+      {{ range $.Site.Data.awards }}
+      <div class="award-card">
+        <p class="award-title">🏆 {{ .title }}</p>
+        <p class="award-org">{{ .org }} · {{ .date }}</p>
+        {{ if .note }}<p class="award-note">{{ .note }}</p>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="cv">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="section-icon">📋</span> CV</h2>
+    <p class="section-intro">Full curriculum vitae, including career history, education, certifications, conferences, and media coverage.</p>
+    <a class="cv-download-card" href="{{ "files/CV_Ivan_Martinovic.pdf" | relURL }}" target="_blank" rel="noopener">
+      <span class="cv-icon">📄</span>
+      <span class="cv-text">
+        <span class="cv-title">Ivan Martinović — Full CV</span>
+        <span class="cv-meta">PDF · Updated March 2026</span>
+      </span>
+      <span class="cv-arrow">↓</span>
+    </a>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="section-icon">📭</span> Contact</h2>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:ivanma@ucg.ac.me">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">ivanma@ucg.ac.me</span>
+      </a>
+      <a class="contact-card" href="mailto:ivo.martinovic@mail.utoronto.ca">
+        <span class="contact-label">Email (Toronto)</span>
+        <span class="contact-value">ivo.martinovic@mail.utoronto.ca</span>
+      </a>
+      <a class="contact-card" href="tel:+38269860486">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+382 69 860 486</span>
+      </a>
+      <a class="contact-card" href="https://www.linkedin.com/in/martinovic-ivan" target="_blank" rel="noopener">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">martinovic-ivan</span>
+      </a>
+    </div>
+    <p class="contact-location">University of Montenegro · Podgorica, Montenegro 🇲🇪</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© {{ now.Year }} Ivan Martinović</p>
+</footer>
+
+{{ end }}

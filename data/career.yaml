@@ -1,0 +1,132 @@
+- role: "Researcher (RIS Talent)"
+  org: "MAPP Center, Aarhus University"
+  location: "Denmark 🇩🇰"
+  start: "Sep 2025"
+  end: "Dec 2025"
+  achievements:
+    - "Recognized among 50 PhD candidates in Europe; awarded a place in the RIS Fellowship Program by EIT Food (European Institute of Innovation and Technology)"
+    - "Developed and applied AI methods in the food sector"
+
+- role: "Founder & CEO"
+  org: "epiSTEMe — Montenegrin Scientific Technology Hub"
+  location: "Montenegro 🇲🇪"
+  start: "Feb 2024"
+  end: "Present"
+  achievements:
+    - "Built an organization contributing to the development and popularization of science, innovation, and technology through STEM fields in Montenegro"
+
+- role: "Consultant & Lecturer"
+  org: "Human Resources Administration, Government of Montenegro"
+  location: "Montenegro 🇲🇪"
+  start: "Jan 2024"
+  end: "Present"
+  achievements:
+    - "Official lecturer in the field of AI, delivering a national program for civil servants and public employees"
+    - "Contributor to the Ready4EU project"
+
+- role: "Visiting Researcher"
+  org: "University of Toronto"
+  location: "Canada 🇨🇦"
+  start: "Feb 2023"
+  end: "Dec 2023 (+ Jun–Jul 2025)"
+  achievements:
+    - "Research group: imedlab.org"
+    - "Developed new methods for automatic AI-based analysis of fluoroscopy X-rays"
+
+- role: "Consultant"
+  org: "British Council Montenegro"
+  location: "Montenegro 🇲🇪"
+  start: "Oct 2021"
+  end: "Apr 2022"
+  achievements:
+    - "Initiated and supported Coding Clubs in over 160 schools across Montenegro"
+    - "Delivered the 21st Century Schools education program"
+    - "Taught problem-solving and practical programming to pupils aged 10–15 via physical computing"
+
+- role: "Researcher"
+  org: "Lockandgo"
+  location: "Montenegro 🇲🇪"
+  start: "Jan 2021"
+  end: "Sep 2022"
+  achievements:
+    - "Developed the Digital Locker startup, an innovative service for sustainable tourism"
+    - "Research, design, testing, and implementation of the digital locker prototype"
+    - "Project funded by the Government of Montenegro and the EU under a collaborative innovation grant scheme"
+
+- role: "PhD Researcher"
+  org: "University of Montenegro"
+  location: "Montenegro 🇲🇪"
+  start: "Dec 2020"
+  end: "Feb 2026"
+  achievements:
+    - "Research in cooperation with the University of Toronto, University of Pittsburgh, Ericsson Nikola Tesla Zagreb, Clinical Center of Montenegro, and Glosarij"
+    - "Fellow of the Ministry of Science"
+    - "Developed new AI-based methods for automatic analysis of fluoroscopic X-rays"
+
+- role: "Mentor"
+  org: "Montenegro Makers"
+  location: "Montenegro 🇲🇪"
+  start: "Sep 2020"
+  end: "Present"
+  achievements:
+    - "Established and implemented the First National Robotics League for Elementary School Students (400 participants)"
+
+- role: "Student Expert"
+  org: "Agency for Control & Quality Assurance of Higher Education"
+  location: "Montenegro 🇲🇪"
+  start: "Sep 2019"
+  end: "Present"
+  achievements:
+    - "Provided expertise in evaluation and certification of higher-education institutions in line with EHEA quality-assurance standards"
+
+- role: "Engineer for Medical Equipment"
+  org: "Glosarij (Siemens Healthineers partner)"
+  location: "Montenegro 🇲🇪"
+  start: "May 2020"
+  end: "Nov 2020"
+  achievements:
+    - "Acted as engineer for medical devices and business partner with Siemens Healthineers"
+    - "Supported sales through equipment demos, installation, configuration, and HCP training"
+
+- role: "Researcher"
+  org: "Ericsson Nikola Tesla Zagreb"
+  location: "Croatia 🇭🇷"
+  start: "Jul 2019"
+  end: "Sep 2019"
+  achievements:
+    - "R&D workshop on measurement and comparison of motion speeds in real and virtual environments"
+
+- role: "Lecturer"
+  org: "American Corner Montenegro"
+  location: "Montenegro 🇲🇪"
+  start: "Sep 2018"
+  end: "Present"
+  achievements:
+    - "Creator and lecturer of education programs supported by the US Embassy in Podgorica"
+
+- role: "Researcher"
+  org: "Faculty of Electrical Engineering, University of Montenegro"
+  location: "Montenegro 🇲🇪"
+  start: "Jan 2018"
+  end: "May 2019"
+  achievements:
+    - "Led research, design, and testing of robots within the Montenegro Wearable Robots project"
+    - "Assisted with Basic Electronics Course laboratory exercises"
+    - "Researcher at the BIO-ICT Centre of Excellence for innovative smart-agriculture systems"
+
+- role: "Researcher"
+  org: "Montenegrin Science Promotion Foundation — PRONA"
+  location: "Montenegro 🇲🇪"
+  start: "Sep 2017"
+  end: "Present"
+  achievements:
+    - "Conducted research projects and led popularization of science in Montenegro"
+
+- role: "Researcher"
+  org: "Faculty of Electrical Engineering, JJ Strossmayer University of Osijek"
+  location: "Croatia 🇭🇷"
+  start: "Jul 2017"
+  end: "Sep 2017"
+  achievements:
+    - "Worked in the laboratory for computer graphics and mathematical image processing"
+    - "Worked with software tools for digital signal processing"

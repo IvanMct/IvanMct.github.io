@@ -1,0 +1,13 @@
+baseURL = "https://IvanMct.github.io/"
+languageCode = "en-us"
+title = "Ivan Martinović"
+
+[params]
+  description = "Ivan Martinović — PhD, Electrical Engineering & AI in Medicine. Researcher, Consultant, Lecturer based in Montenegro."
+  author = "Ivan Martinović"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[build]
+  writeStats = true
