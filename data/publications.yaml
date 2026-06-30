@@ -4,7 +4,7 @@
   venue: "Montenegrin Academy of Sciences and Arts"
   year: "2026"
   type: "monograph"
-  note: "Review done"
+  note: "In press"
 
 - authors: "Nikolić G. (ed.); Martinović I. (entries author)"
   title: "The Montenegrin Health Lexicon — entries: Digitalization of Montenegrin Healthcare; Application of Artificial Intelligence in Montenegrin Healthcare"
@@ -57,6 +57,7 @@
   venue: "AI4Health Summer School (poster)"
   year: "2025"
   type: "conference"
+
 
 - authors: "Martinović I."
   title: "Impact of Artificial Intelligence on Medical Practice: Current State, Challenges, and Perspectives"
@@ -112,4 +113,5 @@
   venue: "EU Project, Media Institute Montenegro"
   year: "2025"
   type: "handbook"
+  link: "https://www.mminstitute.org/blog/2025/05/19/vjestacka-inteligencija-dvije-strane-iste-medalje/"
 
