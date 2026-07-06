@@ -52,6 +52,12 @@
   year: "2019"
   type: "journal"
 
+- authors: "Banovic M., Martinovic I., Asioli D., Sogari G."
+  title: "How Consumers Evaluate Novel Food Innovations: A Cross-Cultural Machine-Learning Analysis of Precision-Fermented Milk"
+  venue: "nternational Food Marketing Research Symposium (IFMRS)"
+  year: "2026"
+  type: "conference"
+  
 - authors: "Martinović I., Dousty M., Li W., Đukanović M., Coyle L. J., Sejdić E."
   title: "Automated Swallowing Analysis Using a Self-Supervised Learning Approach"
   venue: "AI4Health Summer School (poster)"
