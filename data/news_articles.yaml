@@ -1,3 +1,13 @@
+- title: "Eureka pod Lovćenom"
+  outlet: "RTCG"
+  year: "2026"
+  link: "https://rtcg.me/magazin/tehnologija/863840/eureka-pod-lovcenom.html"
+
+- title: "Cetinje innovators ranked among the world's top five: World-class innovations can be created in Montenegro too"
+  outlet: "etv"
+  year: "2026"
+  link: "https://etv.me/english/cetinje-innovators-ranked-among-the-worlds-top-five-world-class-innovations-can-be-created-in-montenegro-too"
+  
 - title: "Nova priznanja: Ivan Martinović dobitnik nagrade za najbolji naučni rad iz oblasti vještačke inteligencije"
   outlet: "CDM"
   year: "2025"
@@ -8,20 +18,25 @@
   year: "2025"
   link: "https://cetinjskilist.com/ivan-martinovic-sa-cetinja-do-svjetskih-naucnih-priznanja/"
 
-- title: "WSIS Prize 2024 Champion"
+- title: "The 'Air Quality Monitoring System' project was awarded the WSIS Prize 2024 Champion award"
   outlet: "ITU"
   year: "2024"
-  link: "https://www.itu.int/net4/wsis/prizes/2024/"
+  link: "https://en.vijesti.me/news-b/society/712910/the-air-quality-monitoring-system-project-was-awarded-the-wsis-prize-2024-champion"
+
+- title: "Energetika pogodna za primjenu vještačke inteligencije"
+  outlet: "CDM"
+  year: "2023"
+  link: "https://www.cdm.me/ekonomija/energetika-pogodna-za-primjenu-vjestacke-inteligencije/"
 
 - title: "Od rodnog Cetinja do univerziteta u Torontu i Oksforda — Ivan istražuje primjenu vještačke inteligencije u medicini"
   outlet: "Kolektiv.me"
   year: "2023"
-  link: "https://kolektiv.me/220354/od-rodnog-cetinja-do-univerziteta-u-torontu-ioksforda-ivan-istrazujeprimjenu-vjestacke-inteligencije-u-medicini"
+  link: "https://ucg.ac.me/objava/blog/1267/objava/161362-student-etf-a-od-rodnog-cetinja-do-univerziteta-u-torontu-i-oksforda-primjena-vjestacke-inteligencije-u-medicini"
 
-- title: "The Best from Montenegro"
+
+- title: "Martinović: Cetinju nepravedno oduzet status naučnog centra CG, želja mi je da osnujem Nacionalni institut za vještačku inteligenciju"
   outlet: "Dnevno"
   year: "2023"
+  link: "https://dnevno.me/martinovic-cetinju-nepravedno-oduzet-status-naucnog-centra-cg-zelja-mi-je-da-osnujem-nacionalni-institut-za-vjestacku-inteligenciju/"
 
-- title: "We Are Talking About Excellence — science and education program"
-  outlet: "RTCG"
-  year: "2022"
+
