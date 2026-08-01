@@ -6,7 +6,7 @@
 
 - title: "Artificial Intelligence in Medicine: From Enthusiasm to Despair"
   event: "Data Science Conference"
-  location: ""
+  location: "Belgrade, Serbia"
   year: "2024"
   type: "talk"
 
@@ -49,7 +49,7 @@
 
 - title: "Session 1: Meaningful Youth Engagement — European Year of Youth"
   event: "Mont Generation Connect — ITU European Digital Youth Jam"
-  location: ""
+  location: "Remote"
   year: "2022"
   type: "talk"
 
@@ -61,13 +61,13 @@
 
 - title: "Artificial Intelligence for Europe: Results and Future Steps"
   event: "EIT Conference"
-  location: ""
+  location: "Remote"
   year: "2022"
   type: "attendee"
 
 - title: "Artificial Intelligence in Medicine"
   event: "European Researchers' Night"
-  location: "Montenegro"
+  location: "Podgorica,Montenegro"
   year: "2021"
   type: "talk"
 
@@ -77,20 +77,9 @@
   year: "2021"
   type: "attendee"
 
-- title: "The 4th Western Balkan Digital Summit"
-  event: "WB6 Digital Summit"
-  location: ""
-  year: "2021"
-  type: "attendee"
-
 - title: "Driving Improvement in Clinical Use of AI"
   event: "Medical Alley"
-  location: ""
+  location: "Remote"
   year: "2021"
   type: "attendee"
 
-- title: "Study Visit to German Research Center for AI (Robotics Innovation Center)"
-  event: "WIDERA Horizon Europe"
-  location: "Germany"
-  year: "2024"
-  type: "attendee"
