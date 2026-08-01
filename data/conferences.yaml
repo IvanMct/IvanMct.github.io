@@ -34,6 +34,12 @@
   year: "2023"
   type: "attendee"
 
+  - title: "International Conference on Aging, Innovation and Rehabilitation"
+  event: "ICAIR"
+  location: "Toronto, Canada"
+  year: "2023"
+  type: "attendee"
+
 - title: "A Machine Learning Approach for Time Series Forecasting"
   event: "Tmrees23"
   location: "France"
