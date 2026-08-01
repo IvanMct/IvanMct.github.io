@@ -7,6 +7,7 @@
       <a href="#about">About me</a>
       <a href="#publications">Publications</a>
       <a href="#awards">Honors &amp; Awards</a>
+      <a href="#dissemination">Research Dissemination</a>
       <a href="#cv">CV</a>
       <a href="#contact">Contact</a>
     </div>
@@ -116,7 +117,66 @@
     </div>
   </div>
 </section>
+<!-- ===== RESEARCH DISSEMINATION ===== -->
+<section class="section alt" id="dissemination">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="section-icon">📢</span> Research Dissemination</h2>
+    <p class="section-intro">Sharing research and knowledge beyond the lab — through conferences, public talks, media, and press.</p>
 
+    <!-- Conferences -->
+    <h3 class="subsection-title">🎓 Conferences</h3>
+    <div class="conf-list">
+      {{ range $.Site.Data.conferences }}
+      <div class="conf-item">
+        <div class="conf-main">
+          <span class="conf-badge conf-badge-{{ .type }}">{{ .type }}</span>
+          <p class="conf-title">{{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</p>
+        </div>
+        <div class="conf-meta">
+          <span class="conf-event">{{ .event }}</span>
+          {{ if .location }}<span class="conf-sep">·</span><span class="conf-loc">{{ .location }}</span>{{ end }}
+          <span class="conf-sep">·</span><span class="conf-year">{{ .year }}</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Talks -->
+    <h3 class="subsection-title" style="margin-top: 52px;">🎤 Talks</h3>
+
+    <!-- News Articles -->
+    <h4 class="subsubsection-title">📰 News Articles</h4>
+    <div class="media-list">
+      {{ range $.Site.Data.news_articles }}
+      <div class="media-item">
+        <div class="media-main">
+          {{ if .link }}
+            <a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a>
+          {{ else }}
+            <span>{{ .title }}</span>
+          {{ end }}
+        </div>
+        <span class="media-meta">{{ .outlet }} · {{ .year }}</span>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- TV Shows & Podcasts -->
+    <h4 class="subsubsection-title" style="margin-top: 36px;">📺 TV Shows &amp; Podcasts</h4>
+    <div class="tv-grid">
+      {{ range $.Site.Data.tv_podcasts }}
+      <div class="tv-card">
+        <span class="tv-icon">{{ if eq .type "tv" }}📺{{ else }}🎬{{ end }}</span>
+        <div class="tv-body">
+          <p class="tv-title">{{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</p>
+          <p class="tv-meta">{{ .outlet }} · {{ .year }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+  </div>
+</section>
 <section class="section alt" id="cv">
   <div class="section-inner">
     <h2 class="section-title"><span class="section-icon">📋</span> CV</h2>
