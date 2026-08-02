@@ -1,0 +1,12 @@
+# Ukloni placeholder primjere i dodaj svoje podatke istog formata
+- course: "Artificial Intelligence — Foundations and Applications"
+  institution: "[Naziv institucije]"
+  role: "Lecturer"
+  year: "2024–Present"
+  note: "Course designed for civil servants and public employees"
+
+- course: "[Naziv kursa]"
+  institution: "[Naziv institucije]"
+  role: "Guest Lecturer"
+  year: "[Godina]"
+  note: ""
