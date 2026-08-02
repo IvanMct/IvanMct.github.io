@@ -1,10 +1,24 @@
-# Ukloni placeholder primjere i dodaj svoje podatke istog formata
-- venue: "[Naziv časopisa ili konferencije]"
+- venue: "The Visual Computer"
   type: "journal"
-  publisher: "[Izdavač, npr. Springer, Elsevier, IEEE]"
-  since: "[Godina]"
+  publisher: "Springer Nature"
+  since: "2026"
+  
+- venue: "Scientific Reports"
+  type: "journal"
+  publisher: "Springer Nature"
+  since: "2025"
 
-- venue: "[Naziv konferencije]"
+- venue: "Cognitive Computation"
+  type: "journal"
+  publisher: "Springer Nature"
+  since: "2025"
+  
+- venue: "Journal of Computer Virology and Hacking Techniques"
+  type: "journal"
+  publisher: "Springer Nature"
+  since: "2025"
+  
+- venue: "Mediterranean Conference on Embedded Computing (MECO)"
   type: "conference"
-  publisher: "[Organizator]"
-  since: "[Godina]"
+  publisher: "IEEE"
+  since: "2022"
