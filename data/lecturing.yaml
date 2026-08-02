@@ -1,12 +1,23 @@
-# Ukloni placeholder primjere i dodaj svoje podatke istog formata
-- course: "Artificial Intelligence — Foundations and Applications"
-  institution: "[Naziv institucije]"
+- course: "Electronics and Computer Science"
+  institution: "Montenegrin Science Promotion Foundation PRONA"
   role: "Lecturer"
-  year: "2024–Present"
-  note: "Course designed for civil servants and public employees"
+  year: "2017–Present"
+  note: "Advanced course for Montenegro's top-performing high school students."
 
 - course: "[Naziv kursa]"
   institution: "[Naziv institucije]"
   role: "Guest Lecturer"
   year: "[Godina]"
+  note: ""
+
+- name: "Montenegrin Science Promotion Foundation PRONA"
+  level: "high school"
+  topic: "Electronics and Computer Science"
+  year: "2017-Present"
+  note: ""
+
+- name: "American corner"
+  level: "undergraduate"
+  topic: "Electronics and Computer Science"
+  year: "2017-Present"
   note: ""
