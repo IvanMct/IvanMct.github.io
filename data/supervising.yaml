@@ -1,0 +1,14 @@
+# Ukloni placeholder primjere i dodaj svoje podatke istog formata
+- name: "[Ime i prezime studenta]"
+  level: "PhD"
+  topic: "[Tema istraživanja]"
+  institution: "[Naziv institucije]"
+  year: "[Godina početka]–Present"
+  note: ""
+
+- name: "[Ime i prezime studenta]"
+  level: "MSc"
+  topic: "[Tema istraživanja]"
+  institution: "[Naziv institucije]"
+  year: "[Godina]"
+  note: ""
