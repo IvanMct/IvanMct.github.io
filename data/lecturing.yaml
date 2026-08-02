@@ -10,6 +10,12 @@
   year: "2026"
   note: "Introduction to IoT and AI technologies."
 
+- course: "Cetinje Smart City"
+  institution: "epiSTEMe Hub"
+  role: "Lecturer"
+  year: "2025-2026"
+  note: "Delivering an introduction to IoT and AI technologies in a living lab environment."
+  
 - course: "Electronics Fundamentals"
   institution: "University of Montenegro - Faculty of Electrical Engineering"
   role: "Laboratory Teaching Assistant"
