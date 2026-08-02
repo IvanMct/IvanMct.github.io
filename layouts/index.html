@@ -7,6 +7,7 @@
       <a href="#about">About me</a>
       <a href="#publications">Publications</a>
       <a href="#awards">Honors &amp; Awards</a>
+      <a href="#advising">Advising</a>
       <a href="#dissemination">Research Dissemination</a>
       <a href="#cv">CV</a>
       <a href="#contact">Contact</a>
@@ -115,6 +116,75 @@
       </div>
       {{ end }}
     </div>
+  </div>
+</section>
+
+<!-- ===== ADVISING ===== -->
+<section class="section alt" id="advising">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="section-icon">🎓</span> Advising</h2>
+    <p class="section-intro">Teaching, reviewing, and contributing to public policy at the intersection of science, technology, and society.</p>
+
+    <!-- Lecturing -->
+    <h3 class="subsection-title">📚 Lecturing</h3>
+    <div class="advising-list">
+      {{ range $.Site.Data.lecturing }}
+      <div class="advising-item">
+        <div class="advising-main">
+          <p class="advising-title">{{ .course }}</p>
+          <p class="advising-meta">{{ .role }} · {{ .institution }}</p>
+          {{ if .note }}<p class="advising-note">{{ .note }}</p>{{ end }}
+        </div>
+        <span class="advising-year">{{ .year }}</span>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Supervising -->
+    <h3 class="subsection-title" style="margin-top: 48px;">👨‍🎓 Supervising</h3>
+    <div class="supervising-list">
+      {{ range $.Site.Data.supervising }}
+      <div class="advising-item">
+        <div class="advising-main">
+          <p class="advising-title">{{ .name }}</p>
+          <p class="advising-meta"><span class="sup-badge">{{ .level }}</span> · {{ .topic }}</p>
+          <p class="advising-meta">{{ .institution }}</p>
+          {{ if .note }}<p class="advising-note">{{ .note }}</p>{{ end }}
+        </div>
+        <span class="advising-year">{{ .year }}</span>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Reviewer Duties -->
+    <h3 class="subsection-title" style="margin-top: 48px;">🔍 Reviewer Duties</h3>
+    <div class="reviewer-list">
+      {{ range $.Site.Data.reviewer }}
+      <div class="reviewer-item">
+        <span class="reviewer-badge reviewer-badge-{{ .type }}">{{ .type }}</span>
+        <div class="reviewer-body">
+          <p class="reviewer-venue">{{ .venue }}</p>
+          <p class="reviewer-meta">{{ .publisher }}{{ if .since }} · Since {{ .since }}{{ end }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Public Policy -->
+    <h3 class="subsection-title" style="margin-top: 48px;">🏛️ Public Policy</h3>
+    <div class="policy-list">
+      {{ range $.Site.Data.public_policy }}
+      <div class="policy-item">
+        <div class="policy-main">
+          <p class="policy-title">{{ .title }}</p>
+          <p class="policy-org">{{ .org }}</p>
+          {{ if .description }}<p class="policy-desc">{{ .description }}</p>{{ end }}
+        </div>
+        <span class="advising-year">{{ .year }}</span>
+      </div>
+      {{ end }}
+    </div>
+
   </div>
 </section>
   
