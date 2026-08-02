@@ -1,10 +1,19 @@
-# Ukloni placeholder primjere i dodaj svoje podatke istog formata
-- title: "[Naziv uloge ili angažmana]"
-  org: "[Naziv institucije ili tijela]"
-  year: "[Godina]"
-  description: "[Kratak opis doprinosa ili uloge]"
+- title: "Artificial Intelligence"
+  org: "Government of Montenegro - Human Resources Administration 🇲🇪"
+  year: "2024-Present"
+  description: "Creator of the first artificial intelligence training program for civil servants and public employees."
 
-- title: "[Naziv uloge ili angažmana]"
-  org: "[Naziv institucije ili tijela]"
-  year: "[Godina]"
-  description: "[Kratak opis doprinosa ili uloge]"
+- title: "Creator and developer of the EduTech Labs Program"
+  org: "Government of Montenegro - Ministry of science 🇲🇪"
+  year: "2024-2025"
+  description: ""
+
+- title: "Consultant to the 21st Century Schools Program"
+  org: "British Council 🇲🇪 🇬🇧"
+  year: "2021-2022"
+  description: ""
+
+- title: "Consultant"
+  org: "Agency for control & quality assurance of higher education 🇲🇪"
+  year: "2019-2025"
+  description: "Providing expertise in the process of evaluation and certification of higher education institutions and study programs in line with European Standards and Guidelines of quality assurance in the European Higher Education Area (EHEA)"
