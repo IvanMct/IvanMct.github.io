@@ -2,19 +2,19 @@
   institution: "American Corner"
   role: "Lecturer"
   year: "2025-2026"
-  note: ""
+  note: "Designed and delivered a course exploring the role of critical thinking in the age of AI, highlighting both the opportunities and risks of artificial intelligence."
 
 - course: "Smart Projects For Smart City"
   institution: "American Corner"
   role: "Lecturer"
   year: "2026"
-  note: ""
+  note: "Introduction to IoT and AI technologies"
 
 - course: "Electronics Fundamentals"
   institution: "University of Montenegro - Faculty of Electrical Engineering"
   role: "Laboratory Teaching Assistant"
   year: "2018"
-  note: "Introduce electronics fundamentals across hands-on sestions"
+  note: "Introducing electronics fundamentals through hands-on sessions."
   
 - course: "Electronics and Computer Science"
   institution: "Montenegrin Science Promotion Foundation PRONA"
